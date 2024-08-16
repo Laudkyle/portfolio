@@ -56,7 +56,7 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className="hidden md:flex flex-1 max-w-[320px] md:max-w-[482px] mx-auto">
             <img src={Image} alt="image" />
           </div>
         </div>
