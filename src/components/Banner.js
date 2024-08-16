@@ -8,7 +8,10 @@ const Banner = () => {
   return (
     <section className="section" id="home">
       <div className="container mx-auto">
-        
+        <div>text</div>
+        <div>
+          <img src={Image} alt="image" />
+        </div>
       </div>
     </section>
   );
