@@ -10,16 +10,21 @@ const Banner = () => {
       <div className="container mx-auto">
         <div>
           <h1>
-            Ben
-            <span>AIDEN</span>
+            Ben 
+            <span> AYDEN</span>
           </h1>
-          <div>
-            <span>I am a </span>
+          <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
+            <span className="mr-4 text-white">I am a </span>
             <TypeAnimation
               sequence={["Developer", 2000, "Designer", 2000, "Youtuber", 2000]}
               speed={50}
+              wrapper="span"
+              repeat={Infinity}
+              className="text-accent"
             />
           </div>
+          <p>
+          </p>
         </div>
         <div>
           <img src={Image} alt="image" />
