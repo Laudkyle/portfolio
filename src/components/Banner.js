@@ -8,7 +8,19 @@ const Banner = () => {
   return (
     <section className="section" id="home">
       <div className="container mx-auto">
-        <div>text</div>
+        <div>
+          <h1>
+            Ben
+            <span>AIDEN</span>
+          </h1>
+          <div>
+            <span>I am a </span>
+            <TypeAnimation
+              sequence={["Developer", 2000, "Designer", 2000, "Youtuber", 2000]}
+              speed={50}
+            />
+          </div>
+        </div>
         <div>
           <img src={Image} alt="image" />
         </div>
